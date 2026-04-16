@@ -18,8 +18,9 @@ function applyTheme(theme) {
 const storedTheme = window.localStorage.getItem("theme");
 if (storedTheme) {
   applyTheme(storedTheme);
-}
-else {
+} else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  applyTheme("dark");
+} else {
   applyTheme("light");
 }
 

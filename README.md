@@ -3,7 +3,7 @@ Welcome to my personal portfolio website.
 This project showcases my frontend development skills, projects, and contact information.
 
 ## 🚀 Live Demo
-🔗 [Live Demo]()
+🔗 [Live Demo](https://omarlokma.github.io/portfolio/)
 
 ## 📌 About The Project
 This is a responsive personal portfolio website built to present:
